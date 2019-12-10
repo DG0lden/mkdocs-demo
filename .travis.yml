@@ -1,0 +1,22 @@
+---
+language: java
+
+jdk:
+  - openjdk8
+  - openjdk11
+
+git:
+  submodules: false
+
+script:
+    - mkdocs build --verbose --clean --strict
+
+deploy:
+  - provider: pages
+    skip_cleanup: true
+    github-token: "$GITHUB_PAGES_TOKEN"
+    keep-history: false
+    local-dir: site
+    on:
+      branch: develop
+      condition: ( "$TRAVIS_JDK_VERSION" = "openjdk8" )
