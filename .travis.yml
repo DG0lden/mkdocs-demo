@@ -8,6 +8,9 @@ jdk:
 git:
   submodules: false
 
+install:
+    - pip install mkdocs
+
 script:
     - mkdocs build --verbose --clean --strict
 
