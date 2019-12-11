@@ -1,7 +1,7 @@
 # Consume API after Consent Authorization
 
 ## Description
-This workflow starts with the redirect link leaving from either [Authorize Consent Redirect Approach](5b-psuAuthRedirectConsent.md) or [Authorize Consent Embedded Approach](5a-psuAuthRedirectConsent.md). This redirect link will be used by the FinTechApi to retrieve a corresponding Token that can be used to request services on behalf of the PSU.
+This workflow starts with the redirect link leaving from either [Authorize Consent Redirect Approach](5b-psuAuthRedirectConsent.md) or [Authorize Consent Embedded Approach](5a-psuAuthEmbeddedConsent.md). This redirect link will be used by the FinTechApi to retrieve a corresponding Token that can be used to request services on behalf of the PSU.
 
 As long as this token is valid, token will be used to perform corresponding service request on behalf on the PSU. 
 

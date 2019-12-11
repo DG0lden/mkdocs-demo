@@ -44,7 +44,7 @@ BankingProtocol can:
 ### 6. No Suitable Consent Present
 #### 6.0 Initiating a Consent with the ASPSP
 If there is no suitable consent available, the BankingProtocol will first proceed with a consent initiation request.. This is, an initiated service request will either ends up in the expected service response or first redirect the PSU to the [ConsentAuthorisationApi](dictionary.md#ConsentAuthorisationApi).
-Whether this operation is necessary or not depends on the [AspspBankingApi](dictionary.mdAspspBankingApi) interface. The selected banking protocol will know how to deal with this.
+Whether this operation is necessary or not depends on the [AspspBankingApi](dictionary.md#AspspBankingApi) interface. The selected banking protocol will know how to deal with this.
 The Associated [TppContext](dictionary.md#TppContext) contains Tpp identifying information.
 
 #### 6.1 ConsentInit Response
