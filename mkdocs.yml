@@ -2,14 +2,15 @@ site_name: Awesome Docs
 strict: true
 nav:
     - Home: index.md
-    - "Architecture": architecture/README.md
-    - "Search bank": architecture/2-searchBank.md
-    - architecture/1-loginWithFinTech.md
-    - architecture/3-selectBank.md
-    - architecture/4-initiateAisConsent.md
-    - architecture/5-redirectPsuToConsentAPI.md
-    - architecture/5a-psuAuthEmbeddedConsent.md
-    - architecture/5b-psuAuthRedirectConsent.md
-    - architecture/6-consume_api.puml.md
-    - architecture/dictionary.md
+    - "Architecture":
+        - architecture/README.md
+        - "Search bank": architecture/2-searchBank.md
+        - architecture/1-loginWithFinTech.md
+        - architecture/3-selectBank.md
+        - architecture/4-initiateAisConsent.md
+        - architecture/5-redirectPsuToConsentAPI.md
+        - architecture/5a-psuAuthEmbeddedConsent.md
+        - architecture/5b-psuAuthRedirectConsent.md
+        - architecture/6-consume_api.puml.md
+        - architecture/dictionary.md
 theme: readthedocs
