@@ -12,7 +12,9 @@ We will distinguish between remote and local incremental search.
 The remote incremental search is implemented on the server side. A rest endpoint receives a searchString and return a list of matching search entries.
 
 ### Use Case Steps
+
 Use cases for this API:
+
 1. PSU loads FinTechSearchScreen
 2. FinTechUI displays a search screen to the PSU
 3. PSU enters any keyword in the search input field
