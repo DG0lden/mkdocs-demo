@@ -9,10 +9,6 @@
 - [Authorize Consent Embedded Approach](5a-psuAuthRedirectConsent.md)
 
 
-```plantuml
-A --> B
-```
-
 
 
 
