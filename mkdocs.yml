@@ -1,6 +1,7 @@
 site_name: Awesome Docs
 nav:
-    - Home: index.md
+    - Home: ../README.md
+    - Docs: index.md
     - "Architecture": architecture/README.md
     - "Search bank": architecture/2-searchBank.md
 theme: readthedocs
