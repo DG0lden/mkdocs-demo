@@ -13,7 +13,7 @@ git:
 script:
     - docker run -it --rm -v $PWD:/src -w /src -u $(id -u ${USER}):$(id -g ${USER}) g0lden/mkdocs mkdocs build --verbose --clean
     - docker run -it --rm -v $PWD:/src -w /src -u $(id -u ${USER}):$(id -g ${USER}) g0lden/mkdocs bash -c "cd docs && plantuml **/*.puml"
-    - rsync -armR --include="*/" --include="*.puml" --exclude="*" docs/ site/
+    - rsync -armR --include="*/" --include="*.puml" --include="*.png" --exclude="*" docs/ site/
 
 deploy:
   - provider: pages

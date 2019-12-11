@@ -5,6 +5,7 @@ The redirect start with a get request to the entryPoint of the ConsentAuthorisat
 
 ## Diagram
 ![Session diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/adorsys/open-banking-gateway/gh-pages/docs/architecture/diagrams/useCases/5-redirectPsuToConsentAPI.puml&fmt=svg&vvv=1&sanitize=true)  
+![Session diagram](https://dg0lden.github.io/mkdocs-demo/architecture/diagrams/useCases/5-redirectPsuToConsentAPI.png)
 
 ## Request processing ConsentAPI
 
