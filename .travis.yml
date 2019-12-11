@@ -12,6 +12,7 @@ git:
 
 script:
     - docker run -it --rm -v $PWD:/src -w /src -u $(id -u ${USER}):$(id -g ${USER}) g0lden/mkdocs mkdocs build --verbose --clean 
+    - rsync -armR --include="*/" --include="*.puml" --exclude="*" docs/ site/
 
 deploy:
   - provider: pages

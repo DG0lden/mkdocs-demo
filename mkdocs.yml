@@ -1,4 +1,5 @@
 site_name: Awesome Docs
+strict: true
 nav:
     - Home: ../README.md
     - Docs: index.md
