@@ -13,4 +13,5 @@ nav:
         - architecture/5b-psuAuthRedirectConsent.md
         - architecture/6-consume_api.puml.md
         - architecture/dictionary.md
+    - roadmap.md
 theme: readthedocs
